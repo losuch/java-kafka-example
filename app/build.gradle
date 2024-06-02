@@ -26,6 +26,12 @@ dependencies {
      // Add SLF4J dependencies
     implementation 'org.slf4j:slf4j-api:1.7.32'
     implementation 'org.slf4j:slf4j-simple:1.7.32'
+
+    // https://mvnrepository.com/artifact/com.squareup.okhttp3/okhttp
+    implementation 'com.squareup.okhttp3:okhttp:4.9.3'
+
+    // https://mvnrepository.com/artifact/com.launchdarkly/okhttp-eventsource
+    implementation 'com.launchdarkly:okhttp-eventsource:2.5.0'
 }
 
 // Apply a specific Java toolchain to ease working on different environments.
